@@ -1,0 +1,21 @@
+
+/*Step 17*/
+h1, h2, p {
+  text-align: center;
+}
+
+/*Step 18*/
+body {
+  /*background-color: brown;*/  /*Step 22*/
+  background-image: /*Step 28*/
+  url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+/*Step 20*/
+.menu {            /*Step 26 change #menu to .menu*/
+  /*width: 300px;*/
+  width: 80%; /*Step 24*/
+  background-color: burlywood; /*Step 23*/
+  margin-left: auto; /*Step 25*/
+  margin-right: auto; /*Step 25*/
+}

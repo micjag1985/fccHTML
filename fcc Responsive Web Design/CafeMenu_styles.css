@@ -19,3 +19,14 @@ body {
   margin-left: auto; /*Step 25*/
   margin-right: auto; /*Step 25*/
 }
+
+.flavor {
+  text-align: left;
+}
+
+.price {
+  text-align: right;
+}
+.item p {
+  display: inline-block;
+}

@@ -3,6 +3,16 @@
 h1, h2, p {
   text-align: center;
 }
+/*Step 63, 84, 85*/
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
 /*Step 58, 59*/
 h1, h2 {
   font-family: Impact, serif;
@@ -18,7 +28,16 @@ body {
   background-image: /*Step 28*/
   url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif; /*Step 57*/
+  padding: 20px; /*Step 72*/
 }
+/*Step 89, 90*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+/*Step 89, 90*/
 
 /*Step 20*/
 .menu {            /*Step 26 change #menu to .menu*/
@@ -50,8 +69,61 @@ body {
   text-align: left;
   width: 75%;
 }
-/* Step 39 */
+/* Step 39, 73, 74 */
 .item p {
   display: inline-block;
-  
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+/* Step 67, 68, 69, 70 */
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+/* Step 75 */
+.bottom-line {
+  margin-top: 25px;
+}
+/* Step 86 */
+.address {
+  margin-bottom: 5px;
+}
+
+
+/* Step 77 */
+/* FOOTER */
+
+/* Step 78 */
+footer {
+  font-size: 14px;
+}
+/* Step 79 */
+a {
+  color: black;
+}
+/* Step 80, 81, 82 */
+/* a:visited {
+  color: grey;
+}
+a:hover {
+  color: brown;
+}
+a:active {
+  color: white;
+} */
+/* Step 80, 81, 82 */
+
+/* Step 83 */
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }

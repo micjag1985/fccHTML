@@ -3,12 +3,21 @@
 h1, h2, p {
   text-align: center;
 }
+/*Step 58, 59*/
+h1, h2 {
+  font-family: Impact, serif;
+}
+/*Step 60*/
+.established {
+  font-style: italic;
+}
 
 /*Step 18*/
 body {
   /*background-color: brown;*/  /*Step 22*/
   background-image: /*Step 28*/
   url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif; /*Step 57*/
 }
 
 /*Step 20*/
@@ -18,15 +27,31 @@ body {
   background-color: burlywood; /*Step 23*/
   margin-left: auto; /*Step 25*/
   margin-right: auto; /*Step 25*/
-}
+  padding: 20px; /*Step 55*/
+  max-width: 500px; /*Step 56*/
+  /* padding-left: 20px; /*Step 53*/
+  /* padding-right: 20px; Step 53 */
+  /* padding-top: 20px; Step 54 */
+  /* padding-bottom: 20px; Step 54  */
 
+}
+/* Step 36, 37, 38, 45 */
 .flavor {
   text-align: left;
+  width: 75%;
 }
 
 .price {
   text-align: right;
+  width: 25%;
 }
+/* Step 50 */
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+/* Step 39 */
 .item p {
   display: inline-block;
+  
 }

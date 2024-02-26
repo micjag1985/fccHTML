@@ -1,14 +1,89 @@
-/* Step 8, 9, 10 */
+/* Step 8, 9, 10, 43 */
 body {
     width: 100%;
     height: 100vh;
     margin: 0;
     background-color: #1b1b32;
     color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
   }
 /* Step 16 */
 label {
     display: block;
     margin: 0.5rem 0;
 }
-
+/* Step 44 */
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+/* Step 45, 63 */
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+/* Step 46, 47 */
+fieldset {
+  border: none;
+  border-bottom: 3px solid #3b3b4f;
+  padding: 2rem 0;
+  /* border: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0; */
+}
+/* Step 48 */
+fieldset:last-of-type {
+  border-bottom: None;
+}
+/* Step 49, 56*/
+input, textarea, select {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  min-height: 2em;
+}
+/* Step 51, 52, 53 */
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  /* margin-right: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0; */
+  vertical-align: middle;
+}
+/* Step 54, 55, 56 */
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  /* min-height: 2em; remove in fcc task*/
+}
+/* Step 57, 58, 59, 60, 61 */
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  min-width: 300px;
+  /* margin: 0 auto; */
+  margin: 1em auto 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+}
+/* Step 62 */
+input[type="file"] {
+  padding: 1px 2px;
+}
+/* Step 65 */
+a {
+  color: #dfdfe2;
+}

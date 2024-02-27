@@ -1,0 +1,55 @@
+
+<!--To complete your first certification project, it is not necessary to build a beautiful html / css web application.
+The most important thing is to follow the step-by-step instructions. I leave it in such a simple form to move on, but I will come back here-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CertyficationProject1</title>
+  <link rel="stylesheet" href="SurveyForm.css">
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fullfil the survey</p>
+  <form id="survey-form" method="post">
+    <label id="name-label">Name <input id="name" type="text" required placeholder="Enter your name"/><br>
+    </label>
+    <label id="email-label">Email <input id="email" type="email" required placeholder="Enter your email"/><br>
+    </label>
+    <label id="number-label">Age <input id="number" type="number" min="18" max="100" placeholder="Your age"/><br><br>
+    </label>
+  
+    <select id="dropdown">
+      <option value="">Select</option>
+			<option value="1">test1</option>
+			<option value="2">test2</option>
+			<option value="3">test3</option><br>
+      <br>
+    </select><br>
+
+    <label><br>
+      <input value="choice1" name="choice" id="choice" type="radio" checked/><br>
+      <input value="choice2" name="choice" id="choice" type="radio" checked/><br>
+    </label>
+  
+  
+    <label><br>
+      <input type="checkbox" value="checkbox2"/><br>
+      <input type="checkbox" value="checkbox2"/><br>
+      <input type="checkbox" value="checkbox3"/><br><br>
+    </label>
+
+    <label for="comments">Comments:
+      <textarea name="comments" id="comments" rows="3" cols="20" placeholder="Enter your comment...">
+      </textarea>
+    </label>
+
+    <input id="submit" type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>

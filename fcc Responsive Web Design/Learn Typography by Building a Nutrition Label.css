@@ -1,0 +1,46 @@
+/* Step 5 */
+body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+/* Step 6 */
+html {
+    font-size: 16px;
+}
+
+/* Step 8, 9, 10 */
+.label {
+  border: 2px solid black;
+  width: 270px;
+  margin: 20px auto;
+  padding: 0 7px;
+}
+
+/* Step 11 */
+* {
+  box-sizing: border-box;
+}
+
+/* Step 12, 13, 14, 18, 20 */
+h1 {
+  /* font-weight: 800; ---> .bold selector */
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+/* Step 15 */
+p {
+  margin: 0px;
+}
+
+/* Step 17 */
+.divider {
+  border-bottom: 1px solid #888989;
+  margin: 2px 0;
+}
+
+/* Step 20 */
+.bold {
+  font-weight: 800;
+}

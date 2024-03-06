@@ -107,3 +107,24 @@ p {
 .daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
+
+/* Step 59 */
+.double-indent {
+  margin-left: 2em;
+}
+
+/* Step 66 */
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+}
+
+/* Step 67 */
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
+  padding: 0 8px;
+  text-indent: -8px;
+}
+
+

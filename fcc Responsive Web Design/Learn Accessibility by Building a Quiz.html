@@ -43,30 +43,71 @@
         <section role="region"></section>
         <section role="region"></section> -->
         
-        <!--Step 19,20-->
+        <!--Step 19,20,21,22,23,24,26,27,28,29,30-->
         <section role="region" aria-labelledby="student-info">
           <h2 id="student-info">Student Info</h2>
           <div class="info">
             <label for="name">Name</label>
-            <input id="name"/>
+            <!-- <input id="name" type="text" name="name" placeholder="Enter your name"/> -->
+            <input id="name" type="text" name="name" />
           </div>
           <div class="info">
             <label for="email">Email</label>
-            <input id="email"/>
+            <input id="email" type="email" name="email" />
           </div>
           <div class="info">
-            <label for="address">Address</label>
-            <input id="address"/>
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input id="birth-date" type="date" name="birthdate" />
+            <!-- <label for="address">Address</label>
+            <input id="address" type="text" name="name" /> -->
           </div>
         </section>
 
         <section role="region" aria-labelledby="html-questions">
           <h2 id="html-questions">HTML questions</h2>
+          <div class="question-block">
+            <p>1</p>
+            <fieldset class="question">
+              <legend></legend>
+              <ul>
+                <li>
+                  <label>
+                    <input id="q1-a1" type="radio"/>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input id="q1-a2" type="radio"/>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="question-block">
+            <p>2</p>
+            <fieldset class="question">
+              <legend></legend>
+              <ul>
+                <li>
+                  <label>
+                    <input id="q2-a1" type="radio"/>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <input id="q2-a2" type="radio"/>
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+          </div> 
         </section>
         
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS questions</h2>
         </section>
+        <!--Step 19,20,21,22,23,24,26,27,28,29,30-->
+
       </form>
     </main>
 
